@@ -12,7 +12,20 @@
 
 }
 
-body, main {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background-color: var(--black-bg);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+main {
     font-family: 'Space Mono', monospace;
     font-size: 10px;
     font-style: normal;
@@ -20,5 +33,43 @@ body, main {
     line-height: normal;
     text-transform: uppercase;
     color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+input, button, textarea, select {
+    font: inherit;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: 60px repeat(3, 120px) 60px;
+    gap :4px;
+}
+
+.grid div {
     background-color: var(--dark);
+    border-radius: 36px;
+}
+
+.turn {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.menu {
+    background-color: var(--gray)!important;
+}
+
+.square {
+    /* background-color: var(--dark); */
+}
+
+.score {
+    /* background-color: var(--dark); */
 }
