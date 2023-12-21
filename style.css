@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Mono&display=swap');
+
+:root {
+
+    --black-bg: #050505;
+    --dark: #0C0C0C;
+    --gray: #7C7C7C;
+    --linear-gray: linear-gradient(180deg, #1D1D1D 29.69%, #181818 100%);
+    --blue : #020202;
+    --red : #E73D32;
+    --text: #54A4AF; 
+
+}
+
+body, main {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    color: var(--text);
+    background-color: var(--dark);
+}
