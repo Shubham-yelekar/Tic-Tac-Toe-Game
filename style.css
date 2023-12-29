@@ -265,3 +265,28 @@ img, picture, video, canvas, svg {
     opacity: 90%;
     transform: scale(0.98);
 }
+
+.icon-o {
+    width: 36px;
+    height: 36px;
+    background-image:url(./src/0.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0) saturate(100%) invert(41%) sepia(38%) saturate(4612%) hue-rotate(229deg) brightness(89%) contrast(99%);
+    transition: all 0.4s ease-in-out;
+    animation: 0.4s ease-in-out turn-icon-anime;
+}
+
+.icon-x {
+    width: 36px;
+    height: 36px;
+    background-image:url(./src/x.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0) saturate(100%) invert(42%) sepia(87%) saturate(2388%) hue-rotate(335deg) brightness(86%) contrast(112%);
+    transition: all 0.4s ease-in-out;
+    animation: 0.4s ease-in-out turn-icon-anime;
+}
+
