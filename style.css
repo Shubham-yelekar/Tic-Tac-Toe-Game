@@ -8,7 +8,7 @@
     --linear-gray: linear-gradient(180deg, #1D1D1D 29.69%, #181818 100%);
     --blue : #6C59E2;
     --red : #E73D32;
-    --text: #54A4AF; 
+    --text: #54A4AF;
 
 }
 
@@ -67,7 +67,7 @@ img, picture, video, canvas, svg {
 }
 
 .grid div {
-  
+
     border-radius: 36px;
 
     display: flex;
@@ -75,8 +75,9 @@ img, picture, video, canvas, svg {
     justify-content: center;
     gap: 8px;
 
-    
+
 }
+
 
 .turn {
     grid-column-start: 1;
@@ -100,7 +101,7 @@ img, picture, video, canvas, svg {
     display: flex;
     color: #ffffff;
     flex-direction: column!important;
-    
+
     gap: 4px;
 }
 
@@ -176,7 +177,7 @@ img, picture, video, canvas, svg {
     gap: 8px;
     cursor: pointer;
 
-    
+
 }
 
 .menu-items {
@@ -190,7 +191,7 @@ img, picture, video, canvas, svg {
     gap: 0px!important;
     transition: all 0.4s ease-in-out;
     animation: 0.4s ease-in-out turn-text-anime;
-    
+
 }
 
 .menu-items button {
@@ -212,7 +213,7 @@ img, picture, video, canvas, svg {
 
 .menu-arrow {
     background-color: transparent!important;
-    
+
 }
 
 .menu-arrow path {

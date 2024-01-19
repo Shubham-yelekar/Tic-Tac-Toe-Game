@@ -13,9 +13,9 @@ const App = {
         currentPlayer : 1,
         moves:[]
     },
-    
+
     init(){
-        
+
         App.$.menu.addEventListener("click", (e) => {
             App.$.menuItems.classList.toggle("hidden")
         })
@@ -30,7 +30,7 @@ const App = {
 
         App.$.squares.forEach((square) =>{
             square.addEventListener('click', (event)=>{
-                
+
                 // to check if the sqaure is populated
                 if(square.hasChildNodes()){
                     return
@@ -49,7 +49,7 @@ const App = {
                     icon.classList.add("icon-o");
                 }
 
-                 
+
                 // update current player
                 App.state.currentPlayer = App.state.currentPlayer === 1?2:1;
 
@@ -68,10 +68,10 @@ const App = {
                     [7,8,9],
                 ]
             })
-        })      
+        })
     }
 }
 
-window,addEventListener("load", App.init);
+window.addEventListener("load", App.init);
 
 
